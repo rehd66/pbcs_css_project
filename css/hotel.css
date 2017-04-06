@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	background color: #c2c5d6;
+	font-family: Helvetica, Arial, sans-serif;
+	font-color: #444;
+}
+#container {
+	width: 1024px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+header {
+	width: 100%;
+	height: 110px;
+}
+header img {
+	width: 100%;
+	height: 90%;
+}
+.banner {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.banner img {
+	width: 100%;
+	height: 300px;
+}
+nav {
+	width: 1024px;
+	height: 40px;
+	margin-top: 5px;
+}
+nav a {
+	text-decoration: none;
+	padding-left: 38px;
+	font-size: 19px;
+	font-weight: bold;
+	color: #602E8B;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+.headings {
+	width:1024px;
+}
+.headings h2 {
+	text-align: center;
+	margin-top: 10px;
+	color: #959bd1;
+}
+.contact {
+	margin-left: 100px;
+	margin-top: 10px;
+	color: #959bd1;	
+}
+.headings h1 {
+	margin: 30px 0 30px 35px;
+	font-size: 35px;
+	color: #602E8B;
+}
+.headings .headingfix {
+	text-align: left;
+	margin-left: 45px;
+	color: #000;
+}
+.maininfo {
+	width: 1024px;
+	height: 200px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+.maininfo p, li {
+	float: left;
+	width: 600px;
+}
+.meetings {
+	margin-bottom: -10px;
+	margin-left: 15px;
+	float: left;
+}
+.maininfo ul {
+	float: left;
+}
+.maininfo hr {
+	clear: left;
+	width: 600px; 
+	margin-right: 450px;
+}
+.list {
+	clear: left;
+	width: 600px;
+}
+.list li {
+	margin: 2px;
+}
+.list li a {
+	text-decoration: none;
+	color: #959bd1;
+}
+.list li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.p_img {
+	float: right;
+	padding-right: 100px;
+}
+.forms {
+	width: 600px;
+	height: 400px;
+}
+.form_desc {
+	width: 170px;
+	float: left;
+}
+textarea {
+	height: 100px;
+	width: 315px;
+	margin-top: -10px;
+	margin-bottom: 5px;
+}
+.form_input {
+	width: 150px;
+	display: inline-block;
+}
+input {
+	padding: 0;
+}
+.button_submit {
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+footer {
+	width: 1024px;
+	height: 50px;
+	margin-top: 30px;
+	clear: both;
+	background-color: #602e8b;
+}
+footer h4 {
+	margin: 0;
+	padding-top: 9px;
+	padding-left: 9px;
+	color: white;
+	font-weight: normal;
+}
